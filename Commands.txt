@@ -1,0 +1,24 @@
+
+
+------------------Git Commands:------------------
+
+
+
+
+------------------Postgres Commands------------------
+
+connect to postgres:
+sudo -i -u postgres
+
+create user:
+createuser --interactive
+
+create database:
+createdb learningflask
+
+
+connecting to db:  
+psql -d learningflask
+
+exiting database:
+\q
