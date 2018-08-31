@@ -21,5 +21,5 @@ class User(db.Model):
 	def set_password(self, password):
 		self.pwdhash = generate_password_hash(password)
 
-	def chech_password(self, password):
+	def check_password(self, password):
 		return check_password_hash(self.pwdhash, password)
